@@ -1,0 +1,371 @@
+body, h1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 18px;
+    color: #150C01;
+}
+.container{
+    width: 90%;
+    margin: 10px auto;
+    height: 5880px;
+    box-sizing: border-box;
+}
+.container__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.container__header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+.container__header li a{
+    color: black;
+    font-size: 22px;
+}
+.button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: var(--PRIMARY, #DC780B);
+    border: 0;
+    cursor: pointer;
+}
+.button a{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* hero container */
+
+.hero__container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.hero__container__text p{
+    margin: 55px 0;
+}
+.hero__container__text ul{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    gap: 30px;
+}
+.hero__container__text ul li:nth-child(2) a{
+    padding: 21px 40px;
+    border-radius: 5px;
+    border: 1px solid #DC780B;
+    color: #DC780B;
+}
+.hero__button{
+    padding: 21px 40px;
+}
+
+/* Passion service */
+
+.passion{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+.passion__header{
+    margin: auto;
+    text-align: center;
+}
+.header__p{
+    color: #DC780B;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.passion ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.passion ul li{
+    width: 24%;
+    text-align: center;
+}
+.passion ul li img{
+    padding: 22px;
+    border-radius: 50%;
+    background-color: #f8eee4;
+}
+
+/* Persons service */
+
+.persons{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.persons img{
+    border-radius: 35px;
+}
+.persons__text{
+    width: 45%;
+}
+.persons__text h1{
+    margin-bottom: 40px;
+}
+.persons__text p{
+    font-size: 21px;
+}
+.persons__text button{
+    margin-top: 40px;
+}
+
+/* Menu service */
+
+.menu{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+.menu__header{
+    margin: auto;
+    text-align: center;
+    width: 55%;
+    margin-bottom: 50px;
+}
+.menu__list__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu__list__item{
+    width: 25%;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+.box__text{
+    width: 90%;
+    margin: auto;
+}
+.box__text__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+.box__text__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__box__footer__ul{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.menu__img{
+    border-radius: 78px 10px 78px 0;
+}
+.menu__footer{
+    width: 100%;
+    padding: 12px 30px;
+    display: flex;
+}
+.menu__footer__a{
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 12px 30px;
+    color: #DC780B;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #DC780B;
+}
+
+/* Product service */
+.product{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-right: 250px;
+    margin-top: 150px;
+}
+.product__list__items{
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+.product__list__item button{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.product__list__item:nth-child(1) button{
+    background-color: #150C01;
+}
+.product__list__item:nth-child(2) button{
+    background-color: #faf5f1;
+}
+.product__list__item:nth-child(2) a{
+    color: #111;
+}
+.product__img{
+    border-radius: 52px;
+    width: 400px;
+    height: 720px;
+}
+.product__header__p{
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+/* Testimonial service*/
+
+.testimonial{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.testimonial ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.testimonial__p1{
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    color: #555;
+    margin: 20px 0;
+}
+.testimonial__p2{
+    width: 70%;
+    margin: auto;
+    font-size: 24px;
+}
+.testimonial__img{
+    width: 80px;
+    height: 75px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.testimonial h2{
+    margin-bottom: 0;
+}
+.testimonial blockquote{
+    color: #555;
+}
+
+
+/* Contact service */
+.contact{
+    width: 100%;
+    margin: auto;
+    background-color: #e7d2bc;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact__h1{
+    width: 50%;
+    margin: auto;
+    font-size: 44px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.contact__div{
+    width: 640px;
+    height: 50px;
+    background-color: #fff;
+    margin: auto;
+    
+}
+.contact input{
+    width: 500px;
+    height: 46px;   
+    padding-left: 8px;
+    border: 0;
+}
+
+
+/* Footer service */
+
+footer{
+    width: 100%;
+    margin: auto;
+    background: #252525;
+    color: #fff;
+}
+.footer__list__items{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 60px;    
+}
+.footer__list__item{
+    display: flex;
+    flex-direction: column;
+}
+.footer__list__item img{
+    width: 60px;
+    height: 60px;
+    margin-top: 18px;
+}
+.footer__list__item1 p{
+    color: #fff;
+    opacity: 0.7;
+}
+.footer__list__item1 ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__list__item a{
+    font-size: 18px;
+    margin-top: 18px;
+    color: #fff;
+    opacity: 0.7;
+}
+.footer__list__item1 p:hover,
+.footer__list__item a:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: translateX(20px);
+}
